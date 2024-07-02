@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className='appoint'>
       <h1>Appointment Scheduler</h1>
       <AppointmentForm onSubmit={addAppointment} />
       <AppointmentList appointments={appointments} />
