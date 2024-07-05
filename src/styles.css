@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: rgb(179, 113, 113);
+    background-color: rgb(240, 228, 228);
   }
   
   header {
@@ -15,7 +15,7 @@ body {
   }
 
   header ul:hover{
-    color: #d60c0c;
+    color: #ebe3e3;
     cursor:pointer;
     transition: all 0.3s ease;
   }
@@ -41,15 +41,6 @@ body {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-  }
-  
-  .main-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: hsl(0, 93%, 73%);
   }
   
   form {
